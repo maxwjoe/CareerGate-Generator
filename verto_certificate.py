@@ -28,11 +28,11 @@ pdfmetrics.registerFont(TTFont('ARIALROUNDEDBOLD', 'ARLRDBD.ttf'))
 
 # *** FUNCTION DEFINITIONS ***
 def check_for_worksheet():
-    exist_flag = 0
+    EXIST_FLAG = 0
     if (os.path.isfile(excel_file)):
-        exist_flag = 1
+        EXIST_FLAG = 1
 
-    return exist_flag
+    return EXIST_FLAG
 
 
 def generate_new_data_sheet():
